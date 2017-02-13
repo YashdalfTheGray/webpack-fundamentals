@@ -8,6 +8,12 @@ module.exports = {
             {
                 test: /\.es6$/,
                 exclude: /node_modules/,
+                enforce: 'pre',
+                loader: 'eslint-loader'
+            },
+            {
+                test: /\.es6$/,
+                exclude: /node_modules/,
                 loader: 'babel-loader'
             }
         ]
@@ -15,4 +21,4 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.es6']
     }
-}
+};
