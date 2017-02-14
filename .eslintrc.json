@@ -4,6 +4,9 @@
         "browser": true,
         "node": true
     },
+    "parserOptions": {
+        "sourceType": "module"
+    },
     "extends": "eslint:recommended",
     "rules": {
         "accessor-pairs": "error",

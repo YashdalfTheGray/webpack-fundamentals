@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     context: path.resolve('js'),
-    entry: ['./app.js', './utils.js'],
+    entry: ['./app', './utils'],
     output: {
         path: path.resolve('build/js'),
         publicPath: '/public/assets/js',
