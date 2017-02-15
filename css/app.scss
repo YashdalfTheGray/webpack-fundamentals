@@ -13,4 +13,11 @@ h1 {
         style: solid;
         widows: 1px;
     }
+
+    background: linear-gradient(to top, black, white);
+    display: flex;
+    transition: transform 1s;
+
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
