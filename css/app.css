@@ -1,0 +1,7 @@
+body {
+    padding-top: 80px;
+}
+
+.navbar {
+    background-image: linear-gradient(to bottom, #007c0c 0, #000c0c 100%);
+}
