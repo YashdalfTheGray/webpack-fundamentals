@@ -43,6 +43,11 @@ module.exports = {
                     fallback: 'style-loader',
                     use: 'css-loader!autoprefixer-loader!sass-loader'
                 })
+            },
+            {
+                test: /\.(png|jpg)$/,
+                exclude: /node_modules/,
+                loader: 'url-loader?limit=100000'
             }
         ]
     },

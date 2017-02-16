@@ -6,18 +6,29 @@ body {
     background-image: linear-gradient(to bottom, #007c0c 0, #000c0c 100%);
 }
 
-h1 {
-    padding: 15px;
-    border: {
-        color: #164080;
-        style: solid;
-        widows: 1px;
-    }
+// h1 {
+//     padding: 15px;
+//     border: {
+//         color: #164080;
+//         style: solid;
+//         widows: 1px;
+//     }
+//
+//     background: linear-gradient(to top, black, white);
+//     display: flex;
+//     transition: transform 1s;
+//
+//     -webkit-border-radius: 5px;
+//     border-radius: 5px;
+// }
 
-    background: linear-gradient(to top, black, white);
-    display: flex;
-    transition: transform 1s;
+.bg-header-img {
+    background: url('../images/webpack_logo.png') -131px 1px no-repeat;
+    margin-right: 15px;
+    height: 150px;
+    width: 150px;
+}
 
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+h3 {
+    font-size: 18px;
 }

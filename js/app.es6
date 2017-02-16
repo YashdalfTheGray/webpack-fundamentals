@@ -4,6 +4,14 @@ import { login } from './login';
 
 login('admin', 'not radical');
 
+const img = document.createElement('img');
+
+img.style.height = '25%';
+img.style.width = '25%';
+img.src = require('../images/webpack_logo.png');
+
+document.querySelector('#img-container').appendChild(img);
+
 console.log('App loaded');
 
 require('../css/bootstrap.css');
