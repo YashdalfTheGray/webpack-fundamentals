@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server -d",
-    "build": "webpack --config webpack-production.config.js -p"
+    "build": "webpack --config webpack-production.config.js -p",
+    "clean": "git clean -xfd"
   },
   "repository": {
     "type": "git",
