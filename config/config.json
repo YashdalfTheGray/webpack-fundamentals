@@ -1,0 +1,4 @@
+{
+    // This is a comment which probably won't work
+    "appLoadedMessage": "This message loaded from config.json"
+}

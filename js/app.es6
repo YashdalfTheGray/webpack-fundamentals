@@ -1,6 +1,5 @@
-// require('./login');
-
 import { login } from './login';
+console.log(require('../config/config.json').appLoadedMessage);
 
 login('admin', 'not radical');
 

@@ -48,6 +48,11 @@ module.exports = {
                 test: /\.(png|jpg|ttf|eot)$/,
                 exclude: /node_modules/,
                 loader: 'url-loader?limit=10000'
+            },
+            {
+                test: /\.json$/,
+                exclude: /node_modules/,
+                loader: 'json-loader!' + path.resolve('loaders/strip')
             }
         ]
     },
