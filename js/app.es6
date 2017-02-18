@@ -16,3 +16,23 @@ console.log('App loaded');
 
 require('../css/bootstrap.css');
 require('../css/app.scss');
+
+// React stuff
+const React = require('react');
+const ReactDOM = require('react-dom');
+
+class App extends React.Component { // eslint-disable-line no-unused-vars
+    constructor(props) {
+        super(props);
+
+        this.state = { date: new Date() };
+    }
+
+    render() {
+        return (
+            <pre>{this.state.date.toString()}</pre>
+        );
+    }
+}
+
+ReactDOM.render(<App />, document.querySelector('#react-container'));
